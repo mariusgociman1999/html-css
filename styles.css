@@ -9,6 +9,12 @@ body {
   color: white;
   display: table-cell;
   text-align: center;
+  vertical-align: middle;
+}
+
+.welcome{
+  display: table;
+  
 }
 
 .Info {
@@ -18,8 +24,8 @@ body {
   width: auto;      
   margin: auto;
   display: table;
-  border: 70px transparent;
-  border-spacing: 5px;
+  border: 1px transparent;
+  border-spacing: 20px;
 }
 
 .row {
@@ -27,9 +33,34 @@ body {
 }
 .cell {
   float: left;
+  text-align: center;
   display: table-column;
 }
 .cellr {
   float: right;
+  text-align: center;
   display: table-column;
+}
+
+.img{
+  width: 25%;
+  height: 25%;
+}
+
+a{
+  border-radius: 25px;
+}
+
+a:link, a:visited {
+  background-color: #ff1100;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color: red;
+  background-color: white;
 }
