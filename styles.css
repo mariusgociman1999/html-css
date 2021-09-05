@@ -18,16 +18,18 @@ body {
   width: auto;      
   margin: auto;
   display: table;
-  border: 1px transparent;
+  border: 70px transparent;
   border-spacing: 5px;
 }
 
 .row {
   display: table-row;
-  width: auto;
-  clear: both;
 }
 .cell {
-  float: left; 
-  display: table-column;            
+  float: left;
+  display: table-column;
+}
+.cellr {
+  float: right;
+  display: table-column;
 }
