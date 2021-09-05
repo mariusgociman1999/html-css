@@ -36,7 +36,6 @@ body {
   width: 450px;      
   margin: auto;
   display: table;
-  vertical-align: middle;
   border: 1px transparent;
   border-spacing: 20px;
   border-radius: 25px;
@@ -44,7 +43,6 @@ body {
 
 .row {
   display: table-row;
-  vertical-align: middle;
 }
 .cell {
   float: left;
@@ -62,6 +60,7 @@ body {
   height: 40%;
   border-radius: 25px;
   float: right;
+  position: relative;
 }
 
 a{
