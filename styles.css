@@ -44,9 +44,10 @@ body {
 }
 
 .img{
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   border-radius: 25px;
+  float: right;
 }
 
 a{
