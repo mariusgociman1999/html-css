@@ -21,9 +21,10 @@ body {
   background: rgba(255, 255, 255, 0.089);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
-  width: 350px;      
+  width: 450px;      
   margin: auto;
   display: table;
+  vertical-align: middle;
   border: 1px transparent;
   border-spacing: 20px;
   border-radius: 25px;
@@ -31,6 +32,7 @@ body {
 
 .row {
   display: table-row;
+  vertical-align: middle;
 }
 .cell {
   float: left;
@@ -44,8 +46,8 @@ body {
 }
 
 .img{
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   border-radius: 25px;
   float: right;
 }
