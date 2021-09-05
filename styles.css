@@ -14,7 +14,8 @@ body {
 
 .welcome{
   display: table;
-  
+  position:relative; 
+  top: 75; 
 }
 
 .Back{
