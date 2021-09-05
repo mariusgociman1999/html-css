@@ -29,6 +29,5 @@ body {
 }
 .cell {
   float: left; 
-  display: table-column;         
-  width: 200px;           
+  display: table-column;            
 }
