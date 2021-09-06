@@ -53,7 +53,7 @@ body {
   float: right;
   text-align: center;
   display: table-column;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .img{
